@@ -1,7 +1,7 @@
-import img1 from "../assets/home/avira-hero-image 1.png";
-import img2 from "../assets/home/avira-hero-image 2.png";
-import img3 from "../assets/home/avira-hero-image 3.png";
-import img4 from "../assets/home/avira-hero-image 4.png";
+import img1 from "/images/home/avira-hero-image 1.png";
+import img2 from "/images/home/avira-hero-image 2.png";
+import img3 from "/images/home/avira-hero-image 3.png";
+import img4 from "/images/home/avira-hero-image 4.png";
 import { FaArrowRight } from "react-icons/fa";
 import {Link} from "react-router-dom"
 
