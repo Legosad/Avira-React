@@ -8,5 +8,5 @@ export interface Products {
   id: string;
 }
 export interface CardProps {
-    product:Products, index: number
+    product:Products
 }
