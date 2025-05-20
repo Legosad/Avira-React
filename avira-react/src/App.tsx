@@ -5,7 +5,10 @@ import Home from "./components/Home";
 import Shop from "./components/Shop";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
-import Products from "./components/Products";
+import ProductsPage from "./components/ProductsPage";
+import Cart from "./components/Cart";
+import Favorites from "./components/Favorites";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );

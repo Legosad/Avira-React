@@ -7,8 +7,7 @@ let data: Products[] = [
     description: "Blue Soft Knit Sweater",
     price: "Rs. 2299",
     discounted: "",
-    id: "p1",
-  },
+    id: "p1"  },
   {
     img: "/images/products/forever21.png",
     rating: "4.3",
@@ -16,8 +15,7 @@ let data: Products[] = [
     description: "Plush body-hug sweater",
     price: "Rs. 2299",
     discounted: "",
-    id: "p2",
-  },
+    id: "p2"  },
   {
     img: "/images/products/hnm.png",
     rating: "3.2",
@@ -25,8 +23,7 @@ let data: Products[] = [
     description: "Wide-leg TRF Jeans",
     price: "Rs. 3299",
     discounted: "",
-    id: "p3",
-  },
+    id: "p3"  },
   {
     img: "/images/products/only.png",
     rating: "3.9",
@@ -34,8 +31,7 @@ let data: Products[] = [
     description: "Floral Print Corsery-Inspired Top",
     price: "Rs. 1790",
     discounted: "",
-    id: "p4",
-  },
+    id: "p4"  },
   {
     img: "/images/products/zara.png",
     rating: "4.0",
@@ -43,8 +39,7 @@ let data: Products[] = [
     description: "Knit Scarf with diamond shapes",
     price: "Rs. 2999",
     discounted: "",
-    id: "p5",
-  },
+    id: "p5"  },
   {
     img: "/images/products/only-2.png",
     rating: "4.3",
@@ -52,8 +47,7 @@ let data: Products[] = [
     description: "Pink Blazer Dress",
     price: "Rs. 2299",
     discounted: "",
-    id: "p6",
-  },
+    id: "p6"  },
   {
     img: "/images/products/veromoda-2.png",
     rating: "4.1",
@@ -61,8 +55,7 @@ let data: Products[] = [
     description: "Velvet Halter Jumpsuit",
     price: "Rs. 3299",
     discounted: "",
-    id: "p7",
-  },
+    id: "p7"  },
   {
     img: "/images/products/plush.png",
     rating: "4.9",
@@ -70,8 +63,7 @@ let data: Products[] = [
     description: "High Blue Jeans - Ankle Length",
     price: "Rs. 2299",
     discounted: "",
-    id: "p8",
-  },
+    id: "p8"  },
   {
     img: "/images/products/dressberry.png",
     rating: "4.5",
@@ -79,8 +71,7 @@ let data: Products[] = [
     description: "3 pack of no-show socks",
     price: "Rs. 2999",
     discounted: "Rs. 2299",
-    id: "p9",
-  },
+    id: "p9"  },
   {
     img: "/images/products/only-3.png",
     rating: "3.3",

@@ -35,7 +35,11 @@ const Card = ({ product }: CardProps) => {
       <h2 className="font-extrabold">{product.name}</h2>
       <h3>{product.description}</h3>
       <div className="flex gap-4 justify-left items-center text-[var(--primary-color)]">
-        <span className="text-black line-through">{product.price}</span>
+        {product.discounted ? (
+          <span className="text-black line-through">{product.price}</span>
+        ) : (
+          <span className="text-black">{product.price}</span>
+        )}
         {product.discounted}
       </div>
       <button className="w-full bg-black text-white py-2 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[var(--primary-color)]">

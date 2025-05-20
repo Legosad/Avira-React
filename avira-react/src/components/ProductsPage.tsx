@@ -5,13 +5,13 @@ import { FaCircle } from "react-icons/fa";
 
 const products: Products[] = data;
 
-const Products = () => {
+const ProductsPage = () => {
   return (
     <div className="w-[80%] mx-auto my-10">
       <div className="flex gap-2 justify-start items-center mb-5">
         <h2 className=" font-bold text-xl">Women</h2>
         <p className="text-[var(--primary-color)] flex justify-center items-center gap-2 m-0">
-          <FaCircle /> 12
+          <FaCircle /> {products.length}
         </p>
       </div>
 
@@ -24,4 +24,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsPage;
