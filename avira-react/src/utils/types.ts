@@ -6,6 +6,8 @@ export interface Products {
   price: string;
   discounted: string;
   id: string;
+  sizes: string[];
+  selectedSize: string;
 }
 export interface CardProps {
     product:Products
