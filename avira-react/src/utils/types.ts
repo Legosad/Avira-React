@@ -1,4 +1,4 @@
-export interface Products {
+export interface Product {
   img: string;
   rating: string;
   name: string;
@@ -10,5 +10,9 @@ export interface Products {
   selectedSize: string;
 }
 export interface CardProps {
-    product:Products
+    product:Product
+}
+
+export interface PriceDetailsProps{
+ products: Product[]
 }
