@@ -30,9 +30,9 @@ const Cart = () => {
       ) : (
         <section className="flex justify-around gap-4 w-full p-4">
           <div className="flex flex-col justify-center gap-2 w-[50%]">
-            {cartProducts.map((product: Product) => (
+            {cartProducts.map((product: Product, index: number) => (
               // Cart Card
-              <CartCard product={product} />
+              <CartCard key={index} product={product} />
             ))}
           </div>
           <div className="section-right flex flex-col justify-start w-[50%] gap-10">

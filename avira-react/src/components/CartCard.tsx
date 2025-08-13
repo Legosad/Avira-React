@@ -14,8 +14,10 @@ const CartCard = ({ product }: CardProps) => {
             <div className="sizes flex justify-center items-center ">
               <p className=" bg-[#e2e2e2] px-2 border">SIZE:</p>
               <select name="size" id="size" className="border">
-                {product.sizes.map((size) => (
-                  <option value={size}>{size}</option>
+                {product.sizes.map((size, index) => (
+                  <option key={index} value={size}>
+                    {size}
+                  </option>
                 ))}
               </select>
             </div>
