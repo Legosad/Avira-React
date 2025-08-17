@@ -9,10 +9,11 @@ import ProductsPage from "./components/ProductsPage";
 import Cart from "./components/Cart";
 import Favorites from "./components/Favorites";
 import Login from "./components/Login";
+import Address from "./components/AddressPage";
 
 function App() {
   return (
-    <>
+    <div className="relative">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,9 +24,10 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/address" element={<Address />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
