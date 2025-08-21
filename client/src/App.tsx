@@ -10,6 +10,7 @@ import Cart from "./components/Cart";
 import Favorites from "./components/Favorites";
 import Login from "./components/Login";
 import Address from "./components/AddressPage";
+import PaymentPage from "./components/PaymentPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/address" element={<Address />} />
+        <Route path="/payment" element={<PaymentPage />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>
