@@ -11,6 +11,7 @@ import Favorites from "./components/Favorites";
 import Login from "./components/Login";
 import Address from "./components/AddressPage";
 import PaymentPage from "./components/PaymentPage";
+import OrderConfirmation from "./components/OrderConfirmation";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/address" element={<Address />} />
         <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/confirm-order" element={<OrderConfirmation />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>
