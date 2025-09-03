@@ -1,4 +1,4 @@
-import mongoose, { Schema, Document } from "mongoose";
+import mongoose, { Schema, Document, Types } from "mongoose";
 import type { ICartItem } from "./Cart.model.ts";
 
 interface IAddress {
@@ -10,6 +10,7 @@ interface IAddress {
 }
 
 export interface IUser extends Document {
+  _id: Types.ObjectId;
   name: string;
   email: string;
   password: string;
